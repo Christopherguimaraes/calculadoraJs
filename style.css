@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2? family = Raleway: ital @ 1 & display = swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    outline: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    background-color: #084c55;
+}
+input {
+    margin: 2px;
+    border: none;
+    border-radius: 3px;
+}
+input[type=text] {
+    width: calc(100% - 4px);
+    height: 40px;
+}
+
+input[type=button]{
+    width: 100px;
+    height: 50px;
+    transition:ease 0.4s;
+    cursor: pointer;
+}
+div#calculadora {
+    box-shadow: 20px 0 20px rgb(24, 23, 23);
+}
+div#calculadora div{
+    display: flex;
+}
+div#calculadora div input:nth-child(4) {
+    background: rgb(167, 164, 164);
+}
+div#quarta input:nth-child(1) {
+    background: rgb(207, 88, 88); 
+}
+div#quarta input:nth-child(1), div#calculadora {
+    border-bottom-left-radius: 35px;
+}
+div#quarta input:nth-child(3) {
+    background: rgb(94, 163, 94);
+}
+input[type=button]:hover {
+    filter: brightness(72%);
+}
+input[type=button]:active {
+    transform: scale(0.9);
+}
+#visor {
+    text-align: right;
+}
+#primeira {
+    height: 1.rem;
+}
+#segunda {
+    height:  1.rem;
+}
+#terceira {
+    height:  1.rem;
+}
+#quarta {
+    height: 1.rem;
+}
+
